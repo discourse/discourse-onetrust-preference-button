@@ -4,10 +4,15 @@
   width: 100%;
 
   .onetrust-pref {
-    --d-button-flat-bg-color--hover: var(--d-sidebar-highlight-background);
     color: var(--d-sidebar-link-color);
     margin-right: auto;
     font-size: var(--font-down-1);
+
+    .discourse-no-touch & {
+      &:hover {
+        color: (--d-sidebar-highlight-background);
+      }
+    }
   }
 }
 
