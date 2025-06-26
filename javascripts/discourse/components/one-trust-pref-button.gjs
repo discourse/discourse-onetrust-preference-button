@@ -8,6 +8,7 @@ export default class OneTrustPrefButton extends Component {
     if (window.OneTrust) {
       window.OneTrust.ToggleInfoDisplay();
     } else {
+      // eslint-disable-next-line no-console
       console.warn("OneTrust is not defined");
     }
   }
