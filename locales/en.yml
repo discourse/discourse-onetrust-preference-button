@@ -1,5 +1,5 @@
 en:
   theme_metadata:
-    description: Show a "cookie settings" button when using OneTrust
-    settings:
-      example_setting: A description of a setting.
+    description: Show a "cookie settings" button when the OneTrust Cookie Consent is present. Learn more about OneTrust at https://www.onetrust.com/products/cookie-consent/.
+  one_trust:
+    button: "Cookie Settings"

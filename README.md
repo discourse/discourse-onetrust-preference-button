@@ -1,5 +1,3 @@
-# discourse-onetrust-config-button
+# OneTrust Cookie Consent Settings button for Discourse
 
-**Theme Summary**
-
-For more information, please see: **url to meta topic**
+Show a "cookie settings" button when the OneTrust Cookie Consent is present. Learn more about OneTrust at https://www.onetrust.com/products/cookie-consent/.

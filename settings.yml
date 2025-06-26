@@ -1,2 +1,6 @@
-example_setting:
-  default: true
+location:
+  default: "navigation footer"
+  type: "enum"
+  choices:
+    - "navigation footer"
+    - "faq/terms/privacy page"

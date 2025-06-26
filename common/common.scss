@@ -1,0 +1,28 @@
+.sidebar-footer-actions:has(.onetrust-pref) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .onetrust-pref {
+    --d-button-flat-bg-color--hover: var(--d-sidebar-highlight-background);
+    color: var(--d-sidebar-link-color);
+    margin-right: auto;
+    font-size: var(--font-down-1);
+  }
+}
+
+.body-page {
+  .onetrust-pref {
+    position: fixed;
+    right: 1.25em;
+    bottom: 0;
+    background: var(--primary-very-low);
+    color: var(--primary-high);
+
+    .discourse-no-touch & {
+      &:hover {
+        background: var(--primary-low);
+      }
+    }
+  }
+}
