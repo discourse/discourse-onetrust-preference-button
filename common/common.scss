@@ -10,7 +10,7 @@
 
     .discourse-no-touch & {
       &:hover {
-        color: (--d-sidebar-highlight-background);
+        background: var(--d-sidebar-highlight-background);
       }
     }
   }
