@@ -12,6 +12,6 @@ RSpec.describe "OneTrust Preference Button", type: :system do
     end
 
     expect(page).to have_css(".btn.onetrust-pref")
-    expect(page).to have_button(I18n.t("theme_translations.one_trust.button"))
+    expect(page).to have_button("Cookie Settings")
   end
 end
