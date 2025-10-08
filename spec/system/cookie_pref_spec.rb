@@ -7,9 +7,7 @@ RSpec.describe "OneTrust Preference Button", type: :system do
     visit("/")
 
     # If navigation menu is set to header dropdown, toggle the menu first
-    if SiteSetting.navigation_menu == "header_dropdown"
-      find("#toggle-hamburger-menu").click
-    end
+    find("#toggle-hamburger-menu").click if SiteSetting.navigation_menu == "header_dropdown"
 
     expect(page).to have_css(".btn.onetrust-pref")
     expect(page).to have_button("Cookie Settings")
