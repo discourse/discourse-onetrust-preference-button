@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe "OneTrust Preference Button", type: :system do
+RSpec.describe "OneTrust Preference Button" do
   let!(:theme) { upload_theme_component }
 
   it "displays the OneTrust preference button" do
